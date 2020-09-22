@@ -8,4 +8,4 @@
         - awslogs.conf
 
 - name: start agent
-  service: name=awslogs state=started enabled=yes state=started
+  service: name=awslogsd state=started enabled=yes state=started
